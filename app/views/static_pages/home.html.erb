@@ -1,14 +1,17 @@
 <% provide(:title, "Home") %>
 <div class="center jumbotron">
-  <h1>Welcome to the Stim Center!</h1>
+  
+    <h1>Welcome to the Stim Center!</h1>
 
-  <p>
-    This is the home page for Stim Center, a website for submitting
-    and viewing different type of stims for neurodivergent people.
-  </p>
+    <p>
+      This is the home page for Stim Center, a website for submitting
+      and viewing different type of stims for neurodivergent people.
+    </p>
 
-  <%= link_to "Submit your own stim!", submit_path, class: "btn btn-lg btn-primary" %>
+    <%= link_to "Submit your own stim!", submit_path, class: "btn btn-lg
+                                                              btn-primary" %> 
 </div>
 
-<%= link_to image_tag("neurodivergent.png", alt: "Rails logo"),
+<%= link_to image_tag("neurodivergent.png", alt: "Autistic pride rainbow
+            infinity symbol"),
             'https://en.wikipedia.org/wiki/Autism_rights_movement/' %>
