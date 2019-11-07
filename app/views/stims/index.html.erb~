@@ -1,0 +1,6 @@
+% provide(:title, 'List of Stims') %>
+<h1>List of Stims</h1>
+
+<ul class="stims">
+  <%= render @stims %>
+</ul>

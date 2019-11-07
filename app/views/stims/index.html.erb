@@ -1,0 +1,10 @@
+% provide(:title, 'List of Stims') %>
+<h1>List of Stims</h1>
+
+<ul class="stims">
+  <% @stims.each do |stim| %>
+    <li>
+      <%= link_to stim.name, stim %>
+    </li>
+  <% end %>
+</ul>

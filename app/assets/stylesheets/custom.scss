@@ -28,8 +28,12 @@ textarea {
 .center {
   text-align: center;
     h1 {
-  margin-bottom: 10px;
-  }
+        margin-bottom: 10px;
+        color: indigo
+    }
+    p {
+        color: purple
+    }
 }
 
 /* typography */
@@ -43,6 +47,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  color: indigo;
 }
 
 h2 {
@@ -51,7 +56,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $gray-light;
+  color: purple;
 }
 
 p {
@@ -71,7 +76,7 @@ p {
   padding-top: 9px;
   font-weight: bold;
   &:hover {
-    color: white;
+    color: violet;
     text-decoration: none;
   }
 }
@@ -139,9 +144,9 @@ aside {
   margin-top: 15px;
 }
 
-/* Users index */
+/* Stims index */
 
-.users {
+.stims {
   list-style: none;
   margin: 0;
   li {

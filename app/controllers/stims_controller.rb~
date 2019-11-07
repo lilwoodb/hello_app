@@ -1,0 +1,10 @@
+class StimsController < ApplicationController
+
+  def show
+    @stim = Stim.find(params[:id])
+  end
+
+  def new
+    @stim = Stim.new
+  end
+end

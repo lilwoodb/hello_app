@@ -1,0 +1,9 @@
+require 'test_helper'
+
+class StimsControllerTest < ActionDispatch::IntegrationTest
+  test "should get new" do
+    get stims_new_url
+    assert_response :success
+  end
+
+end
