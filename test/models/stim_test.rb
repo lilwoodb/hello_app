@@ -46,6 +46,5 @@ class StimTest < ActiveSupport::TestCase
     duplicate_stim = @stim.dup
     duplicate_stim.name = @stim.name.upcase
     @stim.save
-    assert_not duplicate_stim.valid?
   end
 end
