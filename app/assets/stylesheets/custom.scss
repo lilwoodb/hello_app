@@ -193,3 +193,11 @@ input {
   margin-top: 45px;
   @include box_sizing;
 }
+
+.center_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
