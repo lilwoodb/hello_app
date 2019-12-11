@@ -1,0 +1,16 @@
+<% provide(:title, "Sources") %>
+<h1>Sources</h1>
+<p>
+  This website uses text and/or information
+  from <a href="https://en.wikipedia.org/wiki/Stimming">Wikipedia</a>,
+  <a href="https://www.medicalnewstoday.com/articles/319714.php">Medical
+    News Today</a>, <a href="http://ican-do.net/images/thestimlist.pdf">
+    The Stim List</a>, and the author's own prior knowledge.
+</p>
+
+<p>
+  Resources used for the format of this website include
+  http://www.colors.commutercreative.com/,
+  https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/beginning,
+  and https://stackoverflow.com/.
+  </p>

@@ -25,6 +25,16 @@ class StimsController < ApplicationController
     @stim = Stim.find(params[:id])
   end
 
+  def update
+    @stim = Stim.find(params[:id])
+    if @stim.update_attributes(stim_params)
+      flash[:success] = "Stim updated"
+      redirect_to @stim
+    else
+      render 'edit'
+    end
+  end
+
   private
 
     def stim_params

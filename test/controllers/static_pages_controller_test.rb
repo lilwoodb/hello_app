@@ -20,8 +20,8 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_select "title", "About | Stim Center"
   end
 
-  test "should get contact" do
-    get contact_path
+  test "should get sources" do
+    get sources_path
     assert_response :success
     assert_select "title", "Sources | Stim Center"
   end
