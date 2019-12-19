@@ -71,6 +71,7 @@ p {
 }
 
 .nav.navbar-nav.navbar-right li a {
+    display: flex;
     color: lavender;
     &:hover {
         color: plum;
